@@ -23,15 +23,22 @@
 
 
 
-		<!-- uni/bidre one to many -->
+		<!-- uni/bidre onetomany -->
 		<!-- <mapping class="com.scp.onetomany.Student2" />
 		<mapping class="com.scp.onetomany.Address2" />
 		 -->
 		 
 		 
 		<!-- unidirectional manyTOOne -->
-		<mapping class="com.scp.manyone.Student1" />
+<!-- 		<mapping class="com.scp.manyone.Student1" />
 		<mapping class="com.scp.manyone.Address1" />
-
+		
+ -->		
+ 
+ 
+	<!-- unidirectional manyTOmany -->
+		<mapping class="com.scp.manytomany.Employee" />
+		<mapping class="com.scp.manytomany.Company" />
+		
 	</session-factory>
 </hibernate-configuration>																																																																																															
